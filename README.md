@@ -8,7 +8,7 @@ This is a binary classification problem. Our goal is two-fold:
 - Then we have to use NLP to train a classifier on which subreddit a given post came from.
 
 
-We are going to gather and prepare our data using the requests library, To create and compare two models. One of these must be a Bayes classifier, however the other can be a classifier of logistic regression, Bagging Classifier, Random forest, Extra tree etc.We will pick one based on the solution. Through it is about classification model so success will be measured by an accuracy score or Misclassification rate.
+We are going to gather and prepare our data using the requests library, To create and compare two models. One of these must be a Bayes classifier, however the other can be a classifier of logistic regression, Bagging Classifier, Random forest, Extra tree etc.We will pick one based on the solution. Through it is about classification model so success will be measured by an accuracy score.
 
 ## Executive Summary
 
@@ -47,7 +47,7 @@ After pull requests using API, we are going to use r/baby and r/Pets from the Re
 
 ### Conclusions and Recommendations
 
-Thus this model will be able to predict a posts subreddit with very good accuracy of ~72% by Using the Bagging Classifier. But in the real world we can find Young Americans may be less likely to be homeowners or parents of human children, but they are leading in their rate of pet ownership. So our prediction can be ~27%  incorrect about baby priority over pets.
+Thus this model will be able to predict a posts for both subreddit with very good accuracy of ~94% by the TfidfVectorizer using Logistic Regression as estimator. In the real world we can find Young Americans may be less likely to be homeowners or parents of human children, but they are leading in their rate of pet ownership. Popularity of baby priority over pets. If we have more data we can be more predictable than this.
 
 This project can be recommended for:
 - Use for sentiment analysis of pets vs baby priority
